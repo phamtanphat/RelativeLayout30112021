@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:background="#f20"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="Top Content Here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#655F5E"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="Bottom Content Here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/TextSecond"
+        android:layout_centerInParent="true"
+        android:background="#03A9F4"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="Second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true"
+        android:layout_toStartOf="@+id/TextSecond"
+        android:background="#CDDC39"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="First"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@+id/TextSecond"
+        android:background="#673AB7"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="Three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
